@@ -15,6 +15,7 @@ public class Main {
         list.stream().forEach(x-> System.out.println(x));
         Set<String> set = list.stream().filter(x -> x.equals("one")).collect(Collectors.toSet());
         list.stream().map(x->x.toUpperCase());
+        //Старайся дальше
 
 
     }
